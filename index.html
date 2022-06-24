@@ -19,12 +19,12 @@
                         <img src="images/logo/Booki.png" alt="Booki">
                     </div>
                     <nav class="headernav">
-                        <ul>
-                            <li>
-                                <a class="HeaderNavLink" href="hébergement">Hébergement</a>
+                        <ul class="ul_nav">
+                            <li class="headerlink">
+                                <a class="HeaderNavLink" href="#hebergements" style="border-bottom: none;">Hébergement</a>
                             </li>
-                            <li>
-                                <a class="HeaderNavLink" href="activités">Activités</a>
+                            <li class="headerlink">
+                                <a class="HeaderNavLink" href="#Activites" style="border-bottom: none;">Activités</a>
                             </li>
                         </ul>
                     </nav>
@@ -34,7 +34,7 @@
 
                 <div class="subtext">
                     <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
-                    <p>En plein centre ville ou en pleine nature</p>
+                    <p class="psub">En plein centre ville ou en pleine nature</p>
                 </div>
                 <div class="recherche">
                     <div class="iconemap">
@@ -53,33 +53,45 @@
 
                 <!-- HEADER / FILTRES -->
 
-                <div class="filtres">
-                    <h2 class="titrefiltres">Filtres</h2>
-                    <div class="barrefiltre">
-                        <div class="imagefiltre">
-                            <i class="fa-solid fa-money-bill-1-wave blue"></i>    
-                        </div>
-                        <span class="titre">Économique</span>
-                    </div>
-                    <div class="barrefiltre">
-                        <div class="imagefiltre">
-                            <i class="fa-solid fa-child-reaching blue"></i>    
-                        </div>
-                        <span class="titre">Familial</span>
-                    </div>
-                    <div class="barrefiltre">
-                        <div class="imagefiltre">
-                            <i class="fa-solid fa-heart blue"></i>    
-                        </div>
-                        <span class="titre">Romantique</span>
-                    </div>
-                    <div class="barrefiltre">
-                        <div class="imagefiltre">
-                            <i class="fa-solid fa-dog blue"></i>    
-                        </div>
-                        <span class="titre">Animaux autorisés</span>
-                    </div>
-                </div>
+                <section class="filtres">
+                    <h3>Filtres</h3>
+                    <nav>
+                        <ul>
+                            <li class="filtre_vignette">
+                                <div class="icone">
+                                    <i class="fa-solid fa-money-bill-wave"></i>
+                                </div>
+                                <div>
+                                    <a href="#">Economique</a>
+                                </div>
+                            </li>
+                            <li class="filtre_vignette">
+                                <div class="icone">
+                                    <i class="fa-solid fa-child"></i>
+                                </div>
+                                <div>
+                                    <a href="#">Familial</a>
+                                </div>
+                            </li>
+                            <li class="filtre_vignette">
+                                <div class="icone">
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                                <div>
+                                    <a href="#">Romantique</a>
+                                </div>
+                            </li>
+                            <li class="filtre_vignette">
+                                <div class="icone">
+                                    <i class="fa-solid fa-cat"></i>
+                                </div>
+                                <div>
+                                    <a href="#">Animaux autorisés</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </section>
 
                 <!-- HEADER / INFORMATIONS -->
 
@@ -185,7 +197,7 @@
                                 </div>
                             </a>
                         </div>
-                        <a href="+" class="afficherplus">Afficher plus</a>
+                        <a href="#" class="afficherplus">Afficher plus</a>
                     </article>
                 </section>
 
